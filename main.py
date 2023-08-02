@@ -4,10 +4,10 @@ import tkinter as tk
 from tkinter import messagebox
 
 # Caminho para o arquivo Excel de origem
-arquivo_excel = '\\\\192.168.21.2\\projetos\\2023\\albert_sabin\\Qualidade\\Gestão a Vista\\Base de Dados\\Indicadores Estratificados - 06.2023 (envio).xlsx'
+arquivo_excel = 'Coloque aqui a pasta onde esta pasta do arquivo em xlsx'
 
 # Caminho para a pasta onde será salvo o arquivo CSV
-pasta_destino = '\\\\192.168.21.2\\projetos\\2023\\albert_sabin\\Qualidade\\Gestão a Vista\\Base de Dados\\CSV\\'
+pasta_destino = 'Coloque aqui a pasta de destino'
 
 # Define o caminho completo e nome do novo arquivo CSV
 nome_arquivo_csv = os.path.join(pasta_destino, 'novo_arquivo.csv')
